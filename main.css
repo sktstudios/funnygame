@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body {
+    background-color: #C479FF;
+    background-size: auto;
+}
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.ulu {
+    display: block;
+    overflow: hidden;
+    padding: 0px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lili {
+    float: left;
+}
+.rien1 {
+  display: block;
+  padding: 14px 16px;
+  transition: transform 0.32s;
+  margin-left: 15px
+}
+.rien1:hover {
+    transform: scale(1.1);
+}
+h1 {
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'jaldi';
+    margin: 0px;
+    font-size: 50px;
+    float: left;
+    margin-left: 20px;
+}
+.rien {
+    padding: 0px;
+    float: right;
+    margin-right: 30px;
+    display: block;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: filter 0.32s, transform 0.32s;
+}
+.rien:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
