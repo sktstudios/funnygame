@@ -31,7 +31,7 @@ nav {
   display: block;
   padding: 14px 16px;
   transition: transform 0.32s;
-  margin-left: 15px
+  margin-left: 15px;
 }
 .rien1:hover {
     transform: scale(1.1);
@@ -60,4 +60,63 @@ h1 {
 .rien:hover {
     transform: scale(1.1);
     filter: grayscale(0%);
+}
+.ulu2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 50px;
+}
+.lili2, .lili3 {
+    text-align: center;
+}
+.lili2 {
+    margin-bottom: 50px;
+}
+.div1 {
+    background-image: url(love.png);
+    background-size: contain;
+    filter: blur(7px);
+    height: 275px;
+    width: 100%;
+    z-index: -1;
+    transition: filter 0.42s;
+}
+.div1:hover {
+    filter: blur(0px);
+}
+.div2 {
+    background-image: url(backpfs.png);
+    background-size: contain;
+    filter: blur(7px);
+    height: 275px;
+    width: 100%;
+    z-index: -1;
+    transition: filter 0.42s;
+}
+.div2:hover {
+    filter: blur(0px);
+}
+.site1, .site2 {
+    position: absolute;
+    transform: translate(-50%, -100%);
+}
+@media (max-width: 991px) {
+    h1 {
+        margin-left: 0px;
+    }
+    .rien1 {
+        margin-left: 0px;
+    }
+    .rien {
+        display: none;
+    }
+    .div1, .div2 {
+        background-size: 50%;
+    }
+    .imgg {
+        transform: scale(0.8);
+    }
 }
