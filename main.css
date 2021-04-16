@@ -100,8 +100,6 @@ h1 {
     filter: blur(0px);
 }
 .site1, .site2 {
-    position: absolute;
-    transform: translate(-50%, -100%);
 }
 @media (max-width: 991px) {
     h1 {
