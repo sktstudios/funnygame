@@ -99,7 +99,9 @@ h1 {
 .div2:hover {
     filter: blur(0px);
 }
-.site1, .site2 {
+.imgg {
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.6), -5px -5px 10px rgba(255, 255, 255, 0.6);
+    border-radius: 50px;
 }
 @media (max-width: 991px) {
     h1 {
