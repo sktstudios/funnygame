@@ -100,7 +100,7 @@ h1 {
     filter: blur(0px);
 }
 .imgg {
-    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.6), -5px -5px 10px rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.6), -2px -2px 10px rgba(255, 255, 255, 0.6);
     border-radius: 50px;
 }
 @media (max-width: 991px) {
